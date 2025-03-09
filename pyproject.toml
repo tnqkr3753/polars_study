@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "polars-study"
+version = "0.1.0"
+description = ""
+authors = ["Yuntae Park <tnqkr3753@mobigen.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^1.24.0"
+ipython = "^9.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
